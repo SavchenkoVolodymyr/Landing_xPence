@@ -1,0 +1,134 @@
+footer {
+	width: 100%;
+	/* background-color: var(--color_ornge) ; */
+}
+.footer_in{
+	margin: 90px 0 60px;
+}
+.footer_logo{
+	max-width: 284px;
+	flex-grow: 1;
+}
+.footer_links{
+	max-width: 194px;
+	flex-grow: 1;
+}
+.footer_legal{
+	max-width: 282px;
+	flex-grow: 1;
+}
+.footer__logo{
+    display: block;
+}
+.footer_top{
+	display: flex;
+}
+.footer__item:not(:last-child){
+	padding-right: 20px;
+}
+.footer_top_title{
+	font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-transform: uppercase;
+}
+.footer_top_title--margin{
+    margin-bottom: 24px;
+}
+.footer_link_list__item{
+	text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer_link{
+	text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+	color: var(--color_text_main);
+	transition: all 0.3s ease-in-out;
+}
+.footer_link:hover{
+	color: var(--color_ornge);
+}
+.footer_link_list__item:not(:last-child){
+	margin-bottom: 8px;
+}
+.footer_subtitle{
+    font-family: Hind Siliguri;
+    font-size: 20px;
+    font-weight: 400;
+	color: var(--color_text_gray);
+	margin-bottom: 18px;
+}
+.footer__small_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color_text_gray);
+    text-decoration: none;
+}
+.footer_bottom{
+    display: grid;
+    grid-template-columns: minmax(115px, 119px) minmax(86px, 342px) minmax(174px, 566px) 84px;
+}
+.media_link{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+.footer_media{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.media_link__ico{
+    display: block;
+	width: 18px;
+	height: 18px;
+	object-position: center;
+	object-fit: contain;
+}
+.footer_form{
+	margin-bottom: 10px;
+}
+.fieldset{
+	display: flex;
+	align-items: center;
+	column-gap: 19px;
+	padding-left: 23px;
+	max-width: 349px;
+	height: 62px;
+	border: 1px solid var(--color_text_main);
+	border-radius: 8px;
+	padding-left: 23px;
+}
+.input{
+	border: none;
+	width: 198px;
+	font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+	color:var(--color_text_main);
+}
+.btn_form{
+	display:inline-flex;
+	justify-content: center;
+	min-width: 102px;
+	height: 48px;
+	line-height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+	border-radius: 8px;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	color:var(--color-white);
+	background-color: var(--color_ornge);
+}
+.btn_form:hover{
+	color: var(--color_ornge);
+	background-color: var(--color-white);
+	border: 1px solid var(--color_ornge);
+	border-radius: 8px;
+}

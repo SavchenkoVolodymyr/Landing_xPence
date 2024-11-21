@@ -1,0 +1,93 @@
+.section__form{
+    padding: 107px 0 102px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_title{
+    font-family: Work Sans;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.form_oll{
+    max-width: 592px;
+}
+.form_contacts{
+    display: flex;
+    column-gap: 12px;
+    margin-bottom: 12px;
+}
+.form_contacn_col{
+    width: calc(100% / var(--colums-form-nomber) - var(--colums-form-gap) * (var(--colums-form-nomber) - 1) / var(--colums-form-nomber));
+
+}
+.input_oll{
+    width: 100%;
+    padding: 0 8px;
+    border: 1px solid var(--color-form-border);
+    border-radius: 4px;
+    font-family:Hind Siliguri;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form_contact__input{
+    height: 49px;
+}
+.form_contact__input:not(:last-child){
+    margin-bottom: 12px;
+}
+.form_message__mes{
+    padding: 8px 10px;
+    width: 100%;
+    height: 135px;
+}
+.form_bottom{
+    margin-bottom: 22px;
+}
+.form_additional{
+    font-size: 16px;
+    font-weight: 400;
+    Line-height:25.87px;
+}
+.checkbox_lab{
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.checkbox{
+    position: relative;
+    left: -5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #303030;
+    border-radius: 3px;
+}
+
+.form_submit{
+	min-width: 102px;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 26px;
+    align-self: center;
+
+	font-size: 16px;
+	border-radius: 8px;
+	white-space: nowrap;
+	border: 1px solid var(--color_ornge);
+    background-color:var(--color_ornge);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.form_submit:hover{
+    background-color: var(--color-white)
+}
+

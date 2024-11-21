@@ -1,0 +1,102 @@
+
+body {
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 400;
+
+	color: var(--color_text_main);
+	font-size: 24px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	padding-top: var(--wrapper-padding-top);
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	width: 100%;
+	flex-grow: 1;
+}
+
+.section {
+	width: 100%;
+	padding: 140px 0;
+}
+
+.section.section--hero {
+	min-height: calc(100dvh - var(--wrapper-padding-top) - var(--header-height));
+	display: flex;
+	align-items: center;
+}
+
+.section.section--bg {
+	background-image: url(../../imgs/overview_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color:var(--color_ornge);
+}
+
+.section.section--no_bottom_padding {
+	padding-bottom: 0;
+}
+
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+/* I made */
+.section__subtitle{
+	font-family: Hind Siliguri;
+	text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.57px;
+	color: var(--color_text_gray);
+	padding-bottom: 24px;
+
+}
+
+.section__title {
+	margin-bottom: 20px;
+	font-size: 96px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.section__descr {
+	font-size: 24px;
+	line-height: 1.58;
+	color: var(--color_text_gray);
+}
+
+.section__descr:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+
+.content__col {
+	width: calc(50% - 15px);
+}
+.content_row_title{
+	padding-bottom: 60px;
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}

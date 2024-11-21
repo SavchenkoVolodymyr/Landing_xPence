@@ -1,0 +1,22 @@
+:root {
+  --wrapper-padding-top: 58px;
+  --header-height: 48px;
+  --colums-number: 3;
+  --colums-form-nomber: 2;
+  --colums-form-gap: 12px;
+  --columns-gap: 30px;
+
+  /*colors*/
+  --color-white: #fff;
+  --color_text_main: #292830;
+  --color_text_gray: #bdbdbd;
+  --color_ornge: #ff7235;
+  --color_section: #fffaf8;
+  --color_card_shadow: #0000000a;
+  --section-plan-color: #fffaf8;
+  --color-form-border: #292e3d;
+  --color_card_border: #f5f5f5;
+  --color_card_yellow:#FFBD740D;
+  --color_card_pink:#E2598B0D;
+  --color_card_blue:#4D12EE0D;
+}
